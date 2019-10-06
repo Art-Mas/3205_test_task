@@ -1,0 +1,44 @@
+<head>
+
+  <link rel="stylesheet" href="assets/reset.css">
+  <link rel="stylesheet" href="assets/styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:500&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+
+<div id="js_particles">
+  <div class="container">
+    <div class="content">
+      <form class="form">
+        <div class="form__field-wrap js_video-url-wrap">
+          <input class="form__field js_video-url" placeholder="Video link">
+          <button class="btn form__btn btn--inside btn--primary js_btn-get-data">
+            <span class="btn__text">Send</span>
+            <div class="lds-dual-ring"></div>
+          </button>
+          <div class="errors js_video-url-errors">blank</div>
+        </div>
+      </form>
+
+      <div class="video-info js_video-info">
+        <div class="loader-three-blocks"><div></div><div></div><div></div></div>
+        <div class="video-info__container js_video-info__container">
+
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<script src="assets/libs/jquery.min.js"></script>
+<script src="assets/libs/particles.min.js"></script>
+<script src="assets/main.js"></script>
+<script src="assets/components/video-view.js"></script>
+<script src="assets/components/button.js"></script>
+<script src="assets/components/button-state.js"></script>
+<script src="assets/components/input-validator.js"></script>
+<script src="assets/components/input.js"></script>
+</body>
